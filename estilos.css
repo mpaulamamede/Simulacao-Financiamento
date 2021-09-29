@@ -1,0 +1,30 @@
+html {
+    font-family: Arial;
+}
+
+h1, h2, th {
+    color: #260d50
+}
+
+body {
+    background-color: rgb(204, 204, 253);
+    display: flex;
+    justify-content: center;       
+}
+
+#div1 {
+    padding: 1rem;
+    background-color: aliceblue;
+    width: 500px;    
+}
+
+table {
+    margin-top: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid black;
+}

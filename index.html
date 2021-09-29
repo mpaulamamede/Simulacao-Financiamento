@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head lang="pt-BR">
+    <meta charset="utf-8" />
+    <title>Simulador de financiamento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script defer src="simulador.js"></script>
+  </head>
+  <body>
+    <div id="div1">
+        <div id="div2">
+            <h1>Simulador de financiamento</h1>
+            <label>
+                Valor:
+                <input id="valor" type="number" value="200000" />
+            </label>
+            <br />
+            <label>
+                Prazo (anos):
+                <input id="prazo" type="number" value="20" />
+            </label>
+            <br />
+            <label>
+                Juros ao ano:
+                <input id="jurosaa" type="number" value="0.08" />
+            </label>
+            <button onclick="simular()">Simular</button>
+        </div>
+        <div>
+            <h2>Resultados</h2>
+            <label for="prestacoes">Prazo (meses): </label>
+            <input id="prestacoes" type="number" readonly />
+            <br />
+            <label for="jurosam">Juros ao mês: </label>
+            <input id="jurosam" type="number" readonly />
+            <br />
+            <label for="jurostotal">Juros acumulados: </label>
+            <input id="jurostotal" type="number" readonly />  
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Prestação</th>
+                    <th>Amortização</th>
+                    <th>Juros</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>        
+  </body>
+</html>
